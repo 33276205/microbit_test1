@@ -77,5 +77,6 @@ basic.forever(function () {
 })
 basic.forever(function () {
     SuperBit.StepperTurn(SuperBit.enSteppers.B1, SuperBit.enTurns.T5B0)
+    SuperBit.StepperTurn(SuperBit.enSteppers.B2, SuperBit.enTurns.T5B0)
     basic.pause(2000)
 })
